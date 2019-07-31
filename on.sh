@@ -64,15 +64,15 @@ TIME='date "+%H:%M:%S"'
 
 cowsay -f eyes Selamat Datang | lolcat
 toilet -f standard " KAWER " -F gay
-echo -e $blue '==============================='
-echo Login... | lolcat
-echo -e $red  '==============================='
-echo Nama : Mas Kawer | lolcat
-echo Team : Cilacap Cyber Crack | lolcat
+echo "-----------------------------"    | lolcat
+echo Login...                           | lolcat
+echo "-----------------------------"    | lolcat
+echo Nama : Mas Kawer                   | lolcat
+echo Team : Cilacap Cyber Crack         | lolcat
 echo Git  : https://github.com/MasKawer | lolcat
-echo  -e $yellow'-----------------------------'
-date | lolcat
-echo  -e $green '-----------------------------'
+echo "-----------------------------"    | lolcat
+date                                    | lolcat
+echo "-----------------------------"    | lolcat
 
 #Variable Warna
 b="\033[3m"
@@ -280,7 +280,7 @@ exit
 
 #Tampilan Termux MASKAWER
 
-6) git clone https://github.com/MasKawer/tampilan | lolcat 
+7) git clone https://github.com/MasKawer/tampilan | lolcat 
 pkg install bash                             | lolcat 
 echo "-----------------------------" | lolcat
 pkg install python                           | lolcat
@@ -304,7 +304,7 @@ exit
 
 ;;
 
-7) echo "created by : MAS KAWER"             | lolcat 
+8) echo "created by : MAS KAWER"             | lolcat 
 exit
 ;;
 
