@@ -51,6 +51,7 @@ stop() {
 	clear
 }
 
+#Tampilan Termux Mas Kawer
 clear
 blue='\e[1;34m'
 green='\e[1;32m'
@@ -72,7 +73,8 @@ echo Team : Cilacap Cyber Crack         | lolcat
 echo Git  : https://github.com/MasKawer | lolcat
 echo "-----------------------------"    | lolcat
 date                                    | lolcat
-echo "-----------------------------"    | lolcat
+echo "+++++++++++++++++++++++++++++"    | lolcat
+echo "+++++++++++++++++++++++++++++"    | lolcat
 
 #Variable Warna
 b="\033[3m"
