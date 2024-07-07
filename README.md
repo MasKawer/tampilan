@@ -2,13 +2,10 @@
 Tampilan Termux Mas Kawer
 
 Silahkan lakukan instalasi dependencies dulu
-pkg update && pkg upgrade
-pkg install nano
-pkg install ruby
-gem install lolcat
-pkg install cowsay
-apt install toilet
-pkg install figlet
+$ pkg update && pkg upgrade
+$ pkg install nano
+$ pkg install ruby cowsay toilet figlet
+$ gem install lolcat
 
 buka:
 nano /data/data/com.termux/files/usr/etc/profile
