@@ -1,36 +1,42 @@
 # Installer Tools
-Tampilan Termux Mas Kawer
 
+## Mengubah Tampilan Termux ##
+~~~~~Tahap 1~~~~~
 Silahkan lakukan instalasi dependencies dulu:
+~ Dependencies:
+-> pkg update && pkg upgrade
+-> pkg install git
+-> pkg install nano
+-> pkg install ruby cowsay toilet figlet
+-> gem install lolcat
 
-~Script Design:
-$ pkg update && pkg upgrade
-$ pkg install git
-$ pkg install nano
-$ pkg install ruby cowsay toilet figlet
-$ gem install lolcat
+atur ijin lokasi untuk termux
+-> termux-setup-storage
 
-~~~~~NEW SESSION~~~~~
+~~~~~Tahap 2~~~~~
 *Ini digunakan untuk menghilangkan tulisan "Welcome blablabla" bawaan termux
-$ cd ../
-$ cd usr
-$ cd etc
-$ rm -rf motd atau mv motd motds
+-> cd ../
+-> cd usr
+-> cd etc
+-> rm -rf motd atau mv motd motds
 
-~~~~~NEW SESSION~~~~~
-$ termux-setup-storage
-$ nano .bashrc
-   #Paste Script (nano .bashrc)
-*Pastikan script berwarna warni, kalau masih serba putih, ikuti langkah-langkah sesuai urutan sebelumnya... Pastikan juga di setiap akhir baris tulisan ada jeda berwarna hijau, jika tidak ada, bisa ditambahkan sendiri dengan memberikan "spasi"
-   #Save (CTRL+X)
+~~~~~Tahap 3~~~~~
+-> cd ../
+-> cd usr
+-> cd etc
+-> nano .bashrc
 
-~~~~~NEW SESSION~~~~~
-$ cd ../
-$ cd usr
-$ cd etc
-$ nano bash.bashrc
-   #Paste Script (nano bash.bashrc)
-*Hapus tulisan yang ada kecuali tulisan yang pertama (baris satu memanjang atau bisa juga ke bawah, intinya satu kalimat ini jangan dihapus). Ini kalimat yang menunjukkan lokasi penyimpanan
-   #Save (CTRL+X)
+#Paste Script pada file bashrc/.bashrc ke(nano .bashrc)
+#Save (CTRL+X)
+
+~~~~~Tahap 4~~~~~
+Cara ini akan mengubah tampilan promt command ($) menjadi menarik:
+-> cd ../
+-> cd usr
+-> cd etc
+-> nano bash.bashrc
+
+#Paste Script pada file bashrc/bash.bashrc ke (nano bash.bashrc)
+#Save (CTRL+X)
 
 ##########DONE##########
