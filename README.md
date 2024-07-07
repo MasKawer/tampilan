@@ -6,6 +6,7 @@ pkg update && pkg upgrade
 pkg install nano
 pkg install ruby
 gem install lolcat
+gem install cowsay
 pkg install figlet
 
 buka:
