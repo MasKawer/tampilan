@@ -317,7 +317,7 @@ exit
 
 #Tampilan Termux MASKAWER
 
-7) git clone https://github.com/MasKawer/tampilan | lolcat 
+7) git clone https://github.com/masbokir/tampilan | lolcat 
 pkg install bash                             | lolcat 
 echo "-----------------------------" | lolcat
 pkg install python                           | lolcat
