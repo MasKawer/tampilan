@@ -7,6 +7,7 @@ pkg install nano
 pkg install ruby
 gem install lolcat
 gem install cowsay
+apt install toilet
 pkg install figlet
 
 buka:
