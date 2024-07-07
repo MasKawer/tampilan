@@ -124,8 +124,7 @@ do
 	echo""
 	echo $bu "1. PORT FORDWADING${enda}"; 
 	echo "-----------------------------" | lolcat
-	# echo $r "2. Bash Encrypt${endc}";    
-	echo $r "2. CyberKits/Pentest-KITS${endc}";   
+	echo $r "2. Bash Encryptor${endc}";   
 	echo "-----------------------------" | lolcat
 	echo $g "3. Tombol Termux${endc}";   
 	echo "-----------------------------" | lolcat
@@ -137,7 +136,9 @@ do
 	echo "-----------------------------" | lolcat
 	echo $g "7. Tampilan Termux MAS KAWER";
 	echo "-----------------------------" | lolcat
-	echo $g "8. keluar${endc}";
+	echo $r "8. CyberKits/Pentest-KITS${endc}";   
+	echo "-----------------------------" | lolcat
+	echo $g "00. keluar${endc}";
 	echo "-----------------------------" | lolcat
 	echo ""
 	echo "╭─Mr.KAWER | CilacapCyberCrack"|lolcat
@@ -167,57 +168,25 @@ exit
 ;;
 
 # Bash Encryptor
-# 2) git clone https://github.com/MasKawer/bash-encrypt | lolcat
-# echo "-----------------------------" | lolcat
-# pkg install bash                                 | lolcat 
-# echo "-----------------------------" | lolcat
-# pkg install python                               | lolcat
-# echo "-----------------------------" | lolcat
-# pkg install python3                              | lolcat
-# echo "-----------------------------" | lolcat
-# pip3 install --upgrade pip                       | lolcat
-# echo "-----------------------------" | lolcat
-# pkg install nodejs                               | lolcat
-# echo "-----------------------------" | lolcat
-# npm install -g bash-obfuscate                    | lolcat
-# echo "-----------------------------" | lolcat
-# echo -e "${y} Install Bash Encrypt Tools..."     | lolcat
-# echo "-----------------------------" | lolcat
-# echo -e "${y} cd Encript-Shell-Bash"             | lolcat
-# echo "-----------------------------" | lolcat
-# echo -e "${y} bash encript.sh"                   | lolcat
-# echo "-----------------------------" | lolcat
-# echo "-----------------------------" | lolcat
-# exit
-
-# CyberKits
-2) git clone https://github.com/Len-L/CyberKits | lolcat
+2) git clone https://github.com/masbokir/bash-enkripsi | lolcat
 echo "-----------------------------" | lolcat
-pkg install bash                                | lolcat 
+pkg install bash                                 | lolcat 
 echo "-----------------------------" | lolcat
-pkg install python                              | lolcat
+pkg install python                               | lolcat
 echo "-----------------------------" | lolcat
-pkg install python3                             | lolcat
+pkg install python3                              | lolcat
 echo "-----------------------------" | lolcat
-apt install nmap                                | lolcat
+pip3 install --upgrade pip                       | lolcat
 echo "-----------------------------" | lolcat
-apt install figlet                              | lolcat
+pkg install nodejs                               | lolcat
 echo "-----------------------------" | lolcat
-apt install jq                                  | lolcat
+npm install -g bash-obfuscate                    | lolcat
 echo "-----------------------------" | lolcat
-pip3 install --upgrade pip                      | lolcat
+echo -e "${y} Install Bash Encrypt Tools..."     | lolcat
 echo "-----------------------------" | lolcat
-pkg install nodejs                              | lolcat
+echo -e "${y} cd Encript-Shell-Bash"             | lolcat
 echo "-----------------------------" | lolcat
-npm install -g bash-obfuscate                   | lolcat
-echo "-----------------------------" | lolcat
-echo -e "${y} Install CyberKits..."             | lolcat
-echo "-----------------------------" | lolcat
-echo -e "${y} cd CyberKits/Pentest-KITS "       | lolcat
-echo "-----------------------------" | lolcat
-echo -e "${y} pip install -r requirements.txt"  | lolcat
-echo "-----------------------------" | lolcat
-echo -e "${y} python3 setup.py"                  | lolcat
+echo -e "${y} bash encript.sh"                   | lolcat
 echo "-----------------------------" | lolcat
 echo "-----------------------------" | lolcat
 exit
@@ -341,7 +310,40 @@ exit
 
 ;;
 
-8) echo "created by : MAS KAWER"             | lolcat 
+# CyberKits
+8) git clone https://github.com/Len-L/CyberKits | lolcat
+echo "-----------------------------" | lolcat
+pkg install bash                                | lolcat 
+echo "-----------------------------" | lolcat
+pkg install python                              | lolcat
+echo "-----------------------------" | lolcat
+pkg install python3                             | lolcat
+echo "-----------------------------" | lolcat
+apt install nmap                                | lolcat
+echo "-----------------------------" | lolcat
+apt install figlet                              | lolcat
+echo "-----------------------------" | lolcat
+apt install jq                                  | lolcat
+echo "-----------------------------" | lolcat
+pip3 install --upgrade pip                      | lolcat
+echo "-----------------------------" | lolcat
+pkg install nodejs                              | lolcat
+echo "-----------------------------" | lolcat
+npm install -g bash-obfuscate                   | lolcat
+echo "-----------------------------" | lolcat
+echo -e "${y} Install CyberKits..."             | lolcat
+echo "-----------------------------" | lolcat
+echo -e "${y} cd CyberKits/Pentest-KITS "       | lolcat
+echo "-----------------------------" | lolcat
+echo -e "${y} pip install -r requirements.txt"  | lolcat
+echo "-----------------------------" | lolcat
+echo -e "${y} python3 setup.py"                  | lolcat
+echo "-----------------------------" | lolcat
+echo "-----------------------------" | lolcat
+exit
+;;
+
+00) echo "Sampai jumpa lagi..."             | lolcat 
 exit
 ;;
 
